@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+.bg-primary {
+  background-color: #ff401c !important; }
+
+.text-primary {
+  color: #ff401c !important; }
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #b51d00 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important; }
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #821500 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=estilos.css.map */
+
+footer{
+   clear: both;
+   text-align: center;
+}
+
+	#contacto{
+		width: 60%;
+		text-align: center;
+		margin: auto;
+		background-color: rgb(37, 46, 46);
+		 
+		
+	}
+	.container{
+		text-align: center;
+	}
+	.contact-form {
+		width: 80%;
+	}
+	#contacto h1{
+		text-align: center;
+	}
+	#contacto p{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+	font-size: 16Px;
+	color: aliceblue;
+	}
+	#contacto h2{
+		color: aliceblue;
+
+	}
+	
+	
+
+
+/*--------------------------
+SECCION TECNOLOGIAS
+---------------------------*/
+.tecnologias {
+	min-height: 100vh;
+	padding: 2em 10vw 2em 5vw;
+	color: #1c1b18;
+	background-color: #F2F1F0;
+	font-family: "Titillium Web", sans-serif;
+	border-top: solid black 1px;
+  }
+  .tecnologias h3 {
+	font-family: "Titillium Web", sans-serif;
+  }
+  .tecnologias > h1 {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-size: 3em;
+	color: #1c1b18;
+	padding-bottom: 0.2em;
+	margin-bottom: 1em;
+  }
+  .tecnologias > h1::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: center;
+	background-color: #d3643b;
+	height: 3px;
+  }
+  .tecnologias > h1::after {
+	width: 7.5em;
+  }
+  .tecnologias.bloquesTecnologias {
+	display: flex;
+	width: 100%;
+  }
+  .tecnologias .frontend {
+	box-shadow: 0px 0px 0px 1px #ccc;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 2em;
+	padding: 1em 1em 0 1em;
+  }
+  .tecnologias .frontend .imagenTecnologia {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+  .tecnologias .frontend .imagenTecnologia span {
+	visibility: hidden;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+  }
+  .tecnologias .frontend .imagenTecnologia:hover span {
+	visibility: visible;
+	transition: 0.5s ease-in-out;
+  }
+  .tecnologias .frontend .imagenTecnologia:hover img {
+	width: 82px;
+	height: 82px;
+	margin: 0 0.2em 0.2em 0;
+  }
+  .tecnologias .frontend .imagenTecnologia img {
+	transition: 0.2s ease-in-out;
+	width: 80px;
+	height: 80px;
+	margin: 0 0.5em 0.5em 0;
+  }
+    
+  .tecnologias .otros {
+	box-shadow: 0px 0px 0px 1px #ccc;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 2em;
+	padding: 1em 1em 0 1em;
+  }
+  .tecnologias .otros .imagenTecnologia {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+  .tecnologias .otros .imagenTecnologia span {
+	visibility: hidden;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+  }
+  .tecnologias .otros .imagenTecnologia:hover span {
+	visibility: visible;
+	transition: 0.5s ease-in-out;
+  }
+  .tecnologias .otros .imagenTecnologia:hover img {
+	width: 82px;
+	height: 82px;
+	margin: 0 0.2em 0.2em 0;
+  }
+  .tecnologias .otros .imagenTecnologia img {
+	transition: 0.2s ease-in-out;
+	width: 80px;
+	height: 80px;
+	margin: 0 0.5em 0.5em 0;
+  }
+
